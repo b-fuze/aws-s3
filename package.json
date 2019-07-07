@@ -1,0 +1,17 @@
+{
+  "name": "@b-fuze/aws-s3",
+  "version": "1.0.1",
+  "description": "Minimal AWS S3 API",
+  "main": "dist/s3.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "publish": "npm run build && npm publish"
+  },
+  "author": "b-fuze",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^12.0.12",
+    "typescript": "^3.5.2"
+  }
+}
