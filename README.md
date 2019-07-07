@@ -11,9 +11,9 @@ npm i -S @b-fuze/aws-s3
 import { Bucket } from "@b-fuze/aws-s3"
 
 const bucket = new Bucket("my-bucket", {
-  "AWS_ACCESS_KEY_ID": "access-key-id",
-  "AWS_SECRET_ACCESS_KEY": "secret-access-key",
-  "AWS_REGION": "region",
+  AWS_ACCESS_KEY_ID: "access-key-id",
+  AWS_SECRET_ACCESS_KEY: "secret-access-key",
+  AWS_REGION: "region",
 })
 
 bucket.putBuffer("/object/key.ext", someBuffer)

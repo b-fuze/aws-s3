@@ -1,6 +1,6 @@
 {
   "name": "@b-fuze/aws-s3",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Minimal no-dep AWS S3 API",
   "main": "dist/s3.js",
   "scripts": {
