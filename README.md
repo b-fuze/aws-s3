@@ -1,6 +1,10 @@
 # AWS S3 Client
 A minimal no-dep S3 client for NodeJS (v12+)
 
+## Install
+```
+npm i -S @b-fuze/aws-s3
+```
 
 ## Usage
 ```javascript

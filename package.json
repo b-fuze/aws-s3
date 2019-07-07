@@ -1,17 +1,30 @@
 {
   "name": "@b-fuze/aws-s3",
-  "version": "1.0.1",
-  "description": "Minimal AWS S3 API",
+  "version": "1.0.2",
+  "description": "Minimal no-dep AWS S3 API",
   "main": "dist/s3.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc",
-    "publish": "npm run build && npm publish"
+    "build": "tsc"
   },
   "author": "b-fuze",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^12.0.12",
     "typescript": "^3.5.2"
-  }
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/b-fuze/aws-s3"
+  },
+  "keywords": [
+    "aws",
+    "s3",
+    "node.js"
+  ],
+  "bugs": {
+    "url": "https://github.com/b-fuze/aws-s3/issues"
+  },
+  "homepage": "https://github.com/b-fuze/aws-s3#readme"
 }
