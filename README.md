@@ -1,5 +1,5 @@
 # AWS S3 Client
-A minimal no-dep S3 client for NodeJS (v12+)
+A minimal zero-dependency S3 client for NodeJS (v12+)
 
 ## Install
 ```
